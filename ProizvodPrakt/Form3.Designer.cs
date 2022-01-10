@@ -91,7 +91,6 @@ namespace ProizvodPrakt
             this.toolStripTextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.toolStripTextBox1.Name = "toolStripTextBox1";
             this.toolStripTextBox1.Size = new System.Drawing.Size(100, 27);
-            this.toolStripTextBox1.Click += new System.EventHandler(this.toolStripTextBox1_Click);
             this.toolStripTextBox1.TextChanged += new System.EventHandler(this.toolStripTextBox1_TextChanged);
             // 
             // Мероприятие

@@ -50,17 +50,10 @@ namespace ProizvodPrakt
         {
             bSource.Filter = "[Имя] LIKE'" + toolStripTextBox1.Text + "%'";
         }
-
         private void button1_Click(object sender, EventArgs e)
         {
             this.Close();
         }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
         private void Form4_Load(object sender, EventArgs e)
         {
             // строка подключения к БД
@@ -103,17 +96,6 @@ namespace ProizvodPrakt
             dataGridView1.ColumnHeadersVisible = true;
             toolStripTextBox1.Text = SomeClass.variable_class;
         }
-
-        private void toolStripTextBox2_Click(object sender, EventArgs e)
-        {
-            bSource.Filter = "[Мероприятие] LIKE'" + toolStripTextBox2.Text + "%'";
-        }
-
-        private void toolStripTextBox2_TextChanged(object sender, EventArgs e)
-        {
-            bSource.Filter = "[Мероприятие] LIKE'" + toolStripTextBox2.Text + "%'";
-        }
-
         private void toolStripTextBox1_TextChanged(object sender, EventArgs e)
         {
             bSource.Filter = "[Имя] LIKE'" + toolStripTextBox1.Text + "%'";

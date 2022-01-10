@@ -33,9 +33,7 @@ namespace ProizvodPrakt
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.toolStripTextBox1 = new System.Windows.Forms.ToolStripTextBox();
             this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
-            this.toolStripLabel2 = new System.Windows.Forms.ToolStripLabel();
             this.button1 = new System.Windows.Forms.Button();
-            this.toolStripTextBox2 = new System.Windows.Forms.ToolStripTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -49,16 +47,13 @@ namespace ProizvodPrakt
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(788, 400);
             this.dataGridView1.TabIndex = 0;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // toolStrip1
             // 
             this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripTextBox1,
-            this.toolStripLabel1,
-            this.toolStripLabel2,
-            this.toolStripTextBox2});
+            this.toolStripLabel1});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Size = new System.Drawing.Size(800, 27);
@@ -79,12 +74,6 @@ namespace ProizvodPrakt
             this.toolStripLabel1.Name = "toolStripLabel1";
             this.toolStripLabel1.Size = new System.Drawing.Size(0, 24);
             // 
-            // toolStripLabel2
-            // 
-            this.toolStripLabel2.Name = "toolStripLabel2";
-            this.toolStripLabel2.Size = new System.Drawing.Size(106, 24);
-            this.toolStripLabel2.Text = "Мероприятие";
-            // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(0, 406);
@@ -94,14 +83,6 @@ namespace ProizvodPrakt
             this.button1.Text = "Назад";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // toolStripTextBox2
-            // 
-            this.toolStripTextBox2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.toolStripTextBox2.Name = "toolStripTextBox2";
-            this.toolStripTextBox2.Size = new System.Drawing.Size(100, 27);
-            this.toolStripTextBox2.Click += new System.EventHandler(this.toolStripTextBox2_Click);
-            this.toolStripTextBox2.TextChanged += new System.EventHandler(this.toolStripTextBox2_TextChanged);
             // 
             // Form4
             // 
@@ -128,8 +109,6 @@ namespace ProizvodPrakt
         private System.Windows.Forms.ToolStrip toolStrip1;
         private System.Windows.Forms.ToolStripTextBox toolStripTextBox1;
         private System.Windows.Forms.ToolStripLabel toolStripLabel1;
-        private System.Windows.Forms.ToolStripLabel toolStripLabel2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.ToolStripTextBox toolStripTextBox2;
     }
 }
