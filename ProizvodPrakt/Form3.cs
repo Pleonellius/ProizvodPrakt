@@ -13,6 +13,13 @@ namespace ProizvodPrakt
 {
     public partial class Form3 : Form
     {
+        public void reload_list()
+        {
+            //Чистим виртуальную таблицу
+            table.Clear();
+            //Вызываем метод получения записей, который вновь заполнит таблицу
+            GetListUsers();
+        }
         string Familia;
         string FIO;
         string id_selected_naz;
@@ -233,6 +240,11 @@ namespace ProizvodPrakt
         {
             Form4 form4 = new Form4();
             form4.ShowDialog();
+        }
+
+        private void toolStripButton1_Click(object sender, EventArgs e)
+        {
+            reload_list();
         }
     }
 }
